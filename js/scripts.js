@@ -31,6 +31,7 @@ else if(no10==="no") {
 else {
     return 0;
 }
+
 var result=function(no1, no2, no3, no4, no5, no6, no7, no8, no9, no10); {
 return no1+no2+no3+no4+no5+no6+no7+no8+no9+no10;
 }
