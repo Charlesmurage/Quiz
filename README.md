@@ -14,7 +14,7 @@ The website is a quiz on JavaScript concepts which will help users understand th
 ## Behaviour driven Development (BDD)
 * The user submits the choices they selected
 * The choices are evaluated to determine if they are correct
-* The results are returned dependuing on the user's choices.
+* The results are returned depending on the user's choices.
 
 ## Specifications
 * The user can choose only one option from the various options provided in every question.
