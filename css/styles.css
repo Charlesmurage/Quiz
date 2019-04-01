@@ -13,3 +13,8 @@
   .jumbotron{
       background-color: cadetblue;
   }
+  .scroll{
+      color: blue;
+      font-size: 40px;
+      font-style: bold;
+  }
