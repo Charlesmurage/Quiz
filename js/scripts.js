@@ -8,17 +8,14 @@ $(document).ready(function(){
        var Q3 = parseInt($("input:radio[name = Q3]:checked").val());
        var Q4 = parseInt($("input:radio[name= Q4]:checked").val());
        var Q5 = parseInt($("input:radio[name= Q5]:checked").val());
-       var Q6 = parseInt($("input:radio[name= Q6]:checked").val());
-       var Q7 = parseInt($("input:radio[name= Q7]:checked").val());
-       var Q8 = parseInt($("input:radio[name= Q8]:checked").val());
+       
 
-
-       var results= Q1 + Q2 + Q3 + Q4 + Q5 + Q6 +Q7 + Q8;
+       var results= Q1 + Q2 + Q3 + Q4 + Q5;
 
 
 
-       if(results > 40){
-         $("#display").text ("PASS")
+       if(results > 25){
+         $("#display").text ("PASS");
          $("#display").text("AVERAGE");
        }else {
          $("#display").text("FAIL");

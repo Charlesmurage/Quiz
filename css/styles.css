@@ -1,20 +1,14 @@
-#questions{
-    display: show;
-    background-color:none;
-  
-  }
-  #result{
-    display: show;
-  }
+
   h1{
       font-style: italic;
       color: blue;
+      font-family: comic sans Ms body copy;
   }
   .jumbotron{
       background-color: cadetblue;
   }
   .scroll{
-      color: blue;
-      font-size: 40px;
+      color: skyblue;
+      font-size: 25px;
       font-style: bold;
   }
