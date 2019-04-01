@@ -27,7 +27,7 @@ $(document).ready(function () {
       $("#result").val("Your score is "+score);
       $("#button").click(function () {
         $("#questions").hide();
-        $("#result").slideToggle();
+        $("#result").show();
       })
       
       });
