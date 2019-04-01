@@ -24,12 +24,11 @@ $(document).ready(function () {
       if (ans5 == 10) {
         score += 10;
       }
-  $("#result").val("Your score is "+score);
-  $("#button").click(function () {
-    $("#questions").hide();
-    $("#result").slideToggle();
-  })
-  
-  });
-  });
-  
+      $("#result").val("Your score is "+score);
+      $("#button").click(function () {
+        $("#questions").hide();
+        $("#result").slideToggle();
+      })
+      
+      });
+      });
