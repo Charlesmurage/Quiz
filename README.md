@@ -19,7 +19,7 @@ The website is a quiz on JavaScript concepts which will help users understand th
 ## Specifications
 * The user can choose only one option from the various options provided in every question.
 * The user can reset his options if they want to start over
-* The user can submit thei answers
+* The user can submit their answers
 * Total marks from the quiz are displayed after the users submits the answers.
 * The user can reload the page to redo the quiz.
 
@@ -27,7 +27,7 @@ The website is a quiz on JavaScript concepts which will help users understand th
 ## Known Bugs
 There are no known bugs as at now but in case of any you may find please contact me.
 ## Technologies Used
-The language used to create the web page is HTML and JavaScript and the application used to write the code is an application known as Atom.
+The language used to create the web page is HTML and JavaScript and the application used to write the code is an application known as VS code.
 ## Support and contact details
 In case of any questions or feedback or clarifications, you can reach me at:
 Muragemaina09@gmail.com
