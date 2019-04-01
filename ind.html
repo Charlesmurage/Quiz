@@ -1,104 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
 
 <head>
-    <title> Quiz board</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script> src = "js/jquery-3.3.1.js"</script>
-    <script> src = "js/scripts.js"</script>
-</head>
+  <meta charset="utf-8">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC|ZCOOL+XiaoWei" rel="stylesheet">
+  <title>Quiz Board</title>
 
-<body background="images/download.jpeg">
-    <div class="container">
-        
-        <div id="questions">
-                <div class="jumbotron">
-            <h1> Please answer the following questions</h1>
-            <p>The following questions will help you understand more about javaScript</p>
-        </div>
-            <div class="jumbotron">
-                <form id="no1">
-                    <h3>1. Is javaScript an object Based programming language? (2 marks)</h3>
-                    <label>
-                        <input type="radio" name="no1" value="0">
-                        no
-                        <br> </label><br>
-                    <label>
-                        <input type="radio" name="no1" value="10">
-                        yes
-                        <br>
-                    </label> <br>
-                </form>
-            </div>
-            <div class="jumbotron">
-                <form id="no2">
-                    <h3> 2. Which of the following is not a javascript data type? (2 marks</h3>
-                    <label>
-                        <input type="radio" name="no2" value="0">
-                        number
-                    </label> <br>
-                    <label>
-                        <input type="radio" name="no2" value="0">
-                        boolean
-                    </label><br>
-                    <label>
-                        <input type="radio" name="no2" value="10">
-                        stack
-                    </label> <br>
-                </form>
-            </div>
-            <div class="jumbotron">
-                <form id="no3">
-                    <h3> 3. Which company developed javaScript? (2 marks)</h3>
-                    <label>
-                        <input type="radio" name="no3" value="10">
-                        netscape
-                    </label> <br>
-                    <label>
-                        <input type="radio" name="no3" value="0">
-                        microsoft
-                    </label> <br>
-                </form>
-            </div>
-            <form id="no4">
-                <div class="jumbotron">
-                    <h3> 4. WHich of the following is not a looping structure in javascript? (2 marks)</h3>
-                    <label>
-                        <input type="radio" name="no4" value="0">
-                        for
-                    </label> <br>
-                    <label>
-                        <input type="radio" name="no4" value="0">
-                        while
-                    </label> <br>
-                    <label>
-                        <input type="radio" name="no4" value="10">
-                        else
-                    </label> <br>
-            </form>
-        </div>
-        <div class="jumbotron">
-            <form id="no5">
-                <h3> 5. Is javaScript case sensitive? (2 marks)</h3>
-                <label>
-                    <input type="radio" name="no5" value="0">
-                    no
-                </label> <br>
-                <label>
-                    <input type="radio" name="no5" value="10">
-                    yes
-                </label> <br>
-            </form>
-        </div>
-        </form>
+</head>
+<div class="hey">
+          <h2><u><i> NAN TECH</h2>
+<body class="body" background="images/download.jpeg">
+  <div class="container">
+     <div class="jumbotron">
+    <div class="row">
+      <div class="col-md-10">
+        <h1><u> JavaScript Quiz</h1>
+        <p><i>Answer the question below!</p>
         <br>
-        <button id="button" type="button" value="submit">Submit your answers</button><br>
-        <div class="show">
-                <input type="text" name="" value="" id="result">
+        <p><i>The following questions below will help you understand and learn more about JavaScript.</p>
+            <p><em>Answer the questions accordingly. Marks will be awarded for every correct answer.</p>
+
+        <br>
             </div>
+        <form id="form">
+</div>
+</div>
+<div class="scroll">
+<marquee scrollamount="10"
+direction="right" behavior="scroll">
+JAVASCRIPT ASSESSMENT!! </marquee></div>
+<br><br>
+
+<div class="query">
+<div class="jumbotron">
+          <!-- Question1 -->
+  <label for="Q1">1. Is javaScript an object Based programming language?(5 mrks)</label> <br>
+  <input type="radio" name="Q1" value="0" > no<br>
+  <input type="radio" name="Q1" value="5" required> yes<br>
+</div>
+<div class="jumbotron">
+  <!--Question2 -->
+  <br>
+  <label for="Q2">2. Which of the following is not a javascript data type? (5 mrks)</label><br>
+  <input type="radio" name="Q2" value="5" required>stack <br>
+  <input type="radio" name="Q2" value="0">Boolean<br>
+  <input type="radio" name="Q2" value="0">String <br>
+</div>
+<div class="jumbotron">
+  <!--Question3 -->
+  <br>
+  <label for="Q3">3. Which company developed javaScript?(10mrks)</label>
+  <br>
+  <input type="radio" name="Q3" value="0">Microsoft<br>
+  <input type="radio" name="Q3" value="0">Moringa<br>
+  <input type="radio" name="Q3" value="10" required>Netscape<br>
+  <input type="radio" name="Q3" value="0" >Java<br>
+</div>
+<div class="jumbotron">
+  <!--Question4-->
+  <br>
+  <label for="Q4">4. WHich of the following is not a looping structure in javascript?(10mrks)</label><br>
+  <input type="radio" name="Q4" value="0">while<br>
+  <input type="radio" name="Q4" value="0">for<br>
+  <input type="radio" name="Q4" value="10" required>else<br>
+</div>
+<div class="jumbotron">
+  <!--Question5-->
+  <br>
+  <label for="Q5">5. Are JavaScript and Java the same (5 mrks)</label><br>
+  <input type="radio" name="Q5" value="5" required>No<br>
+  <input type="radio" name="Q5" value="0">Yes<br>
+</div>
+  <br>
+  
+<div class="submit">
+          <input class="btn btn-danger" type="submit" value="Submit">
+</div>
+<div id="display"></div>
+
+</div>
     </div>
-    </div>
+  </div>
+  </div>
+  </form>
+
+
+
+  <a href="#"><button type="button" Onclick="window.location.reload()" name="button" id="redo">RETAKE </button></a>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+
 </body>
 
 </html>
